@@ -17,7 +17,8 @@
     var actualWrongGuess = document.getElementsByClassName ("wrongGuess");
   
     console.log(chosenWord)
-      // replacing underscores with letters 
+     
+    // replacing underscores with letters 
       function generateUnderScore() {
       for (var i = 0; i < word.length; i++) {
         underScore.push('_');
@@ -41,7 +42,7 @@
       correctWord.push(userGuess);
 
       underScore[chosenWords.indexof(userGuess)] = userGuess;
-        console.log(underscore)
+       
         actualUnderScore[0].innerHTML = underScore.join(""); 
       actualRightGuess[0].innerHTML = rightGuess;
       
